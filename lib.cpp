@@ -16,7 +16,7 @@ int ris (char a [10] [20] , char b [1] [20]) {
         if (c >= 20) {
             c = 0;
             contatore++;
-            return y;
+            return y+1;
         }
     }
     if (contatore<=0)
