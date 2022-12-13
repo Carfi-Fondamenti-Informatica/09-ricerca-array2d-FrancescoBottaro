@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-#include "lib.h"
 
 int ris (char a [10] [20] , char b [1] [20]) {
 
