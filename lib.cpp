@@ -2,7 +2,7 @@
 using namespace std;
 #include "lib.h"
 
-void ris (char a [10] [20] , char b [1] [20]) {
+int ris (char a [10] [20] , char b [1] [20]) {
 
     int contatore=0;
     int c = 0;
@@ -15,12 +15,11 @@ void ris (char a [10] [20] , char b [1] [20]) {
             c++;
         }
         if (c >= 20) {
-            cout<< y+1;
             c = 0;
             contatore++;
+            return y;
         }
     }
     if (contatore<=0)
-        cout<< "non presente";
-
+    return false;
 }
