@@ -4,7 +4,7 @@
 
 using namespace std;
 char nome [10] [20];
-char test_nome [1] [20];
+char test_nome  [20] = "francesco";
 
 int main() {
 
@@ -12,8 +12,7 @@ int main() {
     cin >> nome[i];
 }
 
-         cin >> test_nome[0];
-         ris (nome,test_nome);
+    ris (nome,test_nome );
 
     return 0;
 }
