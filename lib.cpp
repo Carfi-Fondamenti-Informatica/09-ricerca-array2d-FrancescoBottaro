@@ -15,7 +15,7 @@ void ris (char a [10] [20] , char b  [20]) {
             c++;
         }
         if (c >= 20) {
-            cout<< y+1;
+            cout<< y;
             c = 0;
             contatore++;
         }
