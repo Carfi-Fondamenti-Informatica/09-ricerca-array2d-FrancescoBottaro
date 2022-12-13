@@ -2,7 +2,7 @@
 using namespace std;
 #include "lib.h"
 
-void ris (char a [10] [20] , char b  [20]) {
+void ris (char a [10] [20] , char b [1] [20]) {
 
     int contatore=0;
     int c = 0;
@@ -11,7 +11,7 @@ void ris (char a [10] [20] , char b  [20]) {
     for (y = 0; y < 10; y++) {
 
 
-        while (a[y][c] == b[c]) {
+        while (a[y][c] == b[0][c]) {
             c++;
         }
         if (c >= 20) {
