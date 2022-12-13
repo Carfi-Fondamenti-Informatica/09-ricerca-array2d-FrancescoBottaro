@@ -16,7 +16,7 @@ int main() {
      if (ris (nome,test_nome)==0)
         cout << "non presente";
     else
-        cout <<ris (nome,test_nome)+1;
+        cout <<ris (nome,test_nome);
    
 
     return 0;
