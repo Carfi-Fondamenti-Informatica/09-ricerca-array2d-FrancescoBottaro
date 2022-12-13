@@ -12,7 +12,12 @@ int main() {
     cin >> nome[i];
 }
     cin>>test_nome[0];
-    ris (nome,test_nome );
+    
+     if (ris (nome,test_nome)==0)
+        cout << "non presente";
+    else
+        cout <<ris (nome,test_nome)+1;
+   
 
     return 0;
 }
